@@ -1,4 +1,5 @@
 {
+  "homepage": "http://O-dik90/github.io/myportofolio",
   "name": "dasboard_web_personal",
   "version": "2.1.0",
   "private": true,
@@ -45,6 +46,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -77,6 +80,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
+    "gh-pages": "^6.1.1",
     "prettier": "2.5.1"
   }
 }
