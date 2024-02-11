@@ -1,13 +1,12 @@
-// import Card from "@mui/material/Card";
-// import Icon from "@mui/material/Icon";
+import Card from "@mui/material/Card";
 
 import MDBox from "components/MDBox";
 import backgroundImage from "assets/images/bg-photo.jpg";
-// import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
+import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
 
-// import FacebookIcon from "@mui/icons-material/Facebook";
-// import InstagramIcon from "@mui/icons-material/Instagram";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function MyProfile() {
   return (
@@ -25,11 +24,11 @@ function MyProfile() {
               rgba(gradients.info.state, 0)
             )}, url(${backgroundImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "80%",
+          backgroundPosition: "center",
           overflow: "hidden",
         }}
       />
-      {/* <Card
+      <Card
         sx={{
           position: "relative",
           mt: -10,
@@ -67,7 +66,7 @@ function MyProfile() {
           action={{ route: "", tooltip: "Edit Profile" }}
           shadow={false}
         />
-      </Card> */}
+      </Card>
     </MDBox>
   );
 }

@@ -37,20 +37,13 @@ Coded by www.creative-tim.com
 
 // Material Dashboard 2 React layouts
 import Dashboard from "layouts/dashboard";
-// import Tables from "layouts/tables";
-// import Billing from "layouts/billing";
-// import RTL from "layouts/rtl";
-// import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
-// import SignIn from "layouts/authentication/sign-in";
-// import SignUp from "layouts/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
 import Projects from "layouts/Projects";
-import Contacts from "layouts/contacts";
+// import Contacts from "layouts/contacts";
 import Services from "layouts/service";
-// import Resume from "layouts/resume";
 
 const routes = [
   {
@@ -77,14 +70,6 @@ const routes = [
     route: "/projects",
     component: <Projects />,
   },
-  // {
-  //   type: "collapse",
-  //   name: "Resume",
-  //   key: "resume",
-  //   icon: <Icon fontSize="small">copy</Icon>,
-  //   route: "/resume",
-  //   component: <Resume />,
-  // },
   {
     type: "collapse",
     name: "Service",
@@ -93,37 +78,13 @@ const routes = [
     route: "/services",
     component: <Services />,
   },
-  {
-    type: "collapse",
-    name: "Contact",
-    key: "contact",
-    icon: <Icon fontSize="small">email</Icon>,
-    route: "/contact",
-    component: <Contacts />,
-  },
   // {
   //   type: "collapse",
-  //   name: "RTL",
-  //   key: "rtl",
-  //   icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-  //   route: "/rtl",
-  //   component: <RTL />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Sign In",
-  //   key: "sign-in",
-  //   icon: <Icon fontSize="small">login</Icon>,
-  //   route: "/authentication/sign-in",
-  //   component: <SignIn />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Sign Up",
-  //   key: "sign-up",
-  //   icon: <Icon fontSize="small">assignment</Icon>,
-  //   route: "/authentication/sign-up",
-  //   component: <SignUp />,
+  //   name: "Contact",
+  //   key: "contact",
+  //   icon: <Icon fontSize="small">email</Icon>,
+  //   route: "/contact",
+  //   component: <Contacts />,
   // },
 ];
 

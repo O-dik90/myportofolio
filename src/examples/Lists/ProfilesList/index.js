@@ -35,7 +35,7 @@ function ProfilesList({ title, profiles, shadow }) {
         justifyContent="center"
         ml="auto"
       >
-        <MDTypography variant="caption" color="text">
+        <MDTypography variant="caption" color="text" pl={1}>
           {years}
         </MDTypography>
       </MDBox>
@@ -44,7 +44,7 @@ function ProfilesList({ title, profiles, shadow }) {
 
   return (
     <Card sx={{ height: "100%", boxShadow: !shadow && "none" }}>
-      <MDBox pt={2} px={2} pb={0}>
+      <MDBox pt={2} pb={0}>
         <MDTypography variant="h6" fontWeight="medium" textTransform="capitalize">
           {title}
         </MDTypography>

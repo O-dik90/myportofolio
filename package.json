@@ -1,10 +1,11 @@
 {
-  "name": "material-dashboard-2-react",
+  "name": "dasboard_web_personal",
   "version": "2.1.0",
   "private": true,
-  "author": "Creative Tim",
+  "author": "Odik Yudi Nugroho",
+  "template": "Creative Team Dashboard",
   "license": "See license in https://www.creative-tim.com/license",
-  "description": "React version of Material Dashboard 2 by Creative Tim",
+  "description": "Dashboard Web Personal",
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
