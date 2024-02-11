@@ -48,8 +48,8 @@ import Services from "layouts/service";
 const routes = [
   {
     type: "collapse",
-    name: "Dashboard",
-    key: "dashboard",
+    name: "Home",
+    key: "home",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/",
     component: <Dashboard />,
