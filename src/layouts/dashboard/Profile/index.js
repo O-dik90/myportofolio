@@ -38,7 +38,7 @@ function MyProfile() {
         }}
       >
         <ProfileInfoCard
-          title="Profile Information Untuk Kata Motivasi"
+          title="Profile Information"
           description="Hi, I’m Creative. I like Design and Programming"
           info={{
             fullName: "Odik Yudi Nugroho",
