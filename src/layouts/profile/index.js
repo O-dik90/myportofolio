@@ -10,7 +10,6 @@ import GitHub from "@mui/icons-material/GitHub";
 
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
-// import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
@@ -27,7 +26,7 @@ import PlatformSettings from "layouts/profile/components/PlatformSettings";
 // import profilesListData from "layouts/profile/data/profilesListData";
 import profilesListEducation from "layouts/profile/data/profilesListEducation";
 import profilesListAch from "layouts/profile/data/profilesListAch";
-import profilesListCert from "layouts/profile/data/profilesListCert";
+// import profilesListCert from "layouts/profile/data/profilesListCert";
 import profilesListOrg from "layouts/profile/data/profilesListOrg";
 import profilesListLang from "layouts/profile/data/profilesListLang";
 
@@ -91,9 +90,9 @@ function Overview() {
             <Grid item xs={12} md={6}>
               <ProfilesList title="Achievement" profiles={profilesListAch} shadow={false} />
             </Grid>
-            <Grid item xs={12} md={6}>
+            {/* <Grid item xs={12} md={6}>
               <ProfilesList title="Certificate" profiles={profilesListCert} shadow={false} />
-            </Grid>
+            </Grid> */}
             <Grid item xs={12} md={6}>
               <ProfilesList title="Language" profiles={profilesListLang} shadow={false} />
             </Grid>

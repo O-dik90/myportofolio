@@ -20,13 +20,6 @@ import Autocad from "assets/images/autocad.png";
 import CorelDraw from "assets/images/corel.png";
 
 function PlatformSettings() {
-  // const [followsMe, setFollowsMe] = useState(true);
-  // const [answersPost, setAnswersPost] = useState(true);
-  // const [mentionsMe, setMentionsMe] = useState(true);
-  // const [newLaunches, setNewLaunches] = useState(true);
-  // const [productUpdate, setProductUpdate] = useState(true);
-  // const [newsletter, setNewsletter] = useState(true);
-
   return (
     <Card sx={{ boxShadow: "none" }}>
       <MDBox py={2}>
