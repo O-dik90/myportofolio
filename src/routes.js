@@ -51,7 +51,7 @@ const routes = [
     name: "Home",
     key: "home",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/",
+    route: "/myportofolio",
     component: <Dashboard />,
   },
   {
