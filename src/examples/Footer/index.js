@@ -59,7 +59,7 @@ function Footer({ company }) {
         fontSize={size.sm}
         px={1.5}
       >
-        &copy; {new Date().getFullYear()}, created by
+        &copy; {new Date().getFullYear()}, templated by
         <Link href={href} target="_blank">
           <MDTypography variant="button" fontWeight="medium">
             &nbsp;{name}&nbsp;

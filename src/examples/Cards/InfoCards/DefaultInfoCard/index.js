@@ -28,15 +28,15 @@ import MDTypography from "components/MDTypography";
 function DefaultInfoCard({ color, icon, title, description, value }) {
   return (
     <Card>
-      <MDBox p={2} mx={3} display="flex" justifyContent="center">
+      <MDBox p={2} display="flex">
         <MDBox
           display="grid"
           justifyContent="center"
           alignItems="center"
           bgColor={color}
           color="white"
-          width="4rem"
-          height="4rem"
+          width="2rem"
+          height="2rem"
           shadow="md"
           borderRadius="lg"
           variant="gradient"
@@ -44,7 +44,7 @@ function DefaultInfoCard({ color, icon, title, description, value }) {
           <Icon fontSize="default">{icon}</Icon>
         </MDBox>
       </MDBox>
-      <MDBox pb={2} px={2} textAlign="center" lineHeight={1.25}>
+      <MDBox pb={2} px={2} textAlign="start" lineHeight={1.25}>
         <MDTypography variant="h6" fontWeight="medium" textTransform="capitalize">
           {title}
         </MDTypography>
