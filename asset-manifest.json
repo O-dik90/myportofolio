@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/myportofolio/static/js/main.72a84bf4.js",
+    "main.js": "/myportofolio/static/js/main.cf94742e.js",
     "static/media/home-decor-1.jpg": "/myportofolio/static/media/home-decor-1.05e218fd495ccc65c99d.jpg",
     "static/media/bg-profile.jpeg": "/myportofolio/static/media/bg-profile.af1219a742e09fc7b612.jpeg",
     "static/media/autocad.png": "/myportofolio/static/media/autocad.e7e7e951751607ee9eef.png",
@@ -13,9 +13,9 @@
     "static/media/css.png": "/myportofolio/static/media/css.99426a611bd5b768e71d.png",
     "static/media/sqlserver.png": "/myportofolio/static/media/sqlserver.666de00e0667aaa95f73.png",
     "index.html": "/myportofolio/index.html",
-    "main.72a84bf4.js.map": "/myportofolio/static/js/main.72a84bf4.js.map"
+    "main.cf94742e.js.map": "/myportofolio/static/js/main.cf94742e.js.map"
   },
   "entrypoints": [
-    "static/js/main.72a84bf4.js"
+    "static/js/main.cf94742e.js"
   ]
 }
