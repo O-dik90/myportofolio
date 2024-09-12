@@ -48,7 +48,7 @@ const routes = [
   {
     type: "collapse",
     name: "Home",
-    key: "home",
+    key: "myportofolio",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/myportofolio",
     component: <Dashboard />,
@@ -64,7 +64,7 @@ const routes = [
   {
     type: "collapse",
     name: "Projects",
-    key: "notifications",
+    key: "projects",
     icon: <Icon fontSize="small">assignment</Icon>,
     route: "/projects",
     component: <Projects />,
@@ -72,19 +72,11 @@ const routes = [
   {
     type: "collapse",
     name: "Service",
-    key: "tables",
+    key: "services",
     icon: <Icon fontSize="small">storage</Icon>,
     route: "/services",
     component: <Services />,
   },
-  // {
-  //   type: "collapse",
-  //   name: "Contact",
-  //   key: "contact",
-  //   icon: <Icon fontSize="small">email</Icon>,
-  //   route: "/contact",
-  //   component: <Contacts />,
-  // },
 ];
 
 export default routes;
