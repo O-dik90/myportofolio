@@ -17,19 +17,19 @@ Coded by www.creative-tim.com
 
 // @mui material components
 import Card from "@mui/material/Card";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHub from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// Material Dashboard 2 React components
+import MDBox from "components/MDBox";
+import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
+// import MDTypography from "components/MDTypography";
+import backgroundImage from "assets/images/bg-photo.jpg";
 // import Icon from "@mui/material/Icon";
 // import Menu from "@mui/material/Menu";
 // import MenuItem from "@mui/material/MenuItem";
 
-// Material Dashboard 2 React components
-import MDBox from "components/MDBox";
-// import MDTypography from "components/MDTypography";
-import backgroundImage from "assets/images/bg-photo.jpg";
-import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
-
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // Material Dashboard 2 React examples
 // import DataTable from "examples/Tables/DataTable";
 
@@ -97,16 +97,16 @@ function Projects() {
           description="Hi, I’m ODIK"
           info={{
             fullName: "Odik Yudi Nugroho",
-            phone: "(62) 89 5353 0130 65",
+            // phone: "(62) 89 5353 0130 65",
             email: "nugrohoodik90@gmail.com",
             location: "Indonesia",
           }}
           social={[
-            {
-              link: "https://facebook.com/nugrohoodik",
-              icon: <FacebookIcon />,
-              color: "facebook",
-            },
+            // {
+            //   link: "https://facebook.com/nugrohoodik",
+            //   icon: <FacebookIcon />,
+            //   color: "facebook",
+            // },
             {
               link: "https://www.instagram.com/nugroho_odik",
               icon: <InstagramIcon />,
@@ -116,6 +116,11 @@ function Projects() {
               link: "https://www.linkedin.com/in/odik-yudi-nugroho-600657165/",
               icon: <LinkedInIcon />,
               color: "linkedin",
+            },
+            {
+              link: "https://github.com/O-dik90",
+              icon: <GitHub />,
+              color: "github",
             },
           ]}
           action={{ route: "", tooltip: "Edit Profile" }}

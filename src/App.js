@@ -1,35 +1,27 @@
-import { useState, useEffect } from "react";
-
 // react-router components
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+// Material Dashboard 2 React contexts
+import { setMiniSidenav, setOpenConfigurator, useMaterialUIController } from "context";
+import { useEffect, useState } from "react";
 
-// @mui material components
-import { ThemeProvider } from "@mui/material/styles";
+import Configurator from "examples/Configurator";
 import CssBaseline from "@mui/material/CssBaseline";
 import Icon from "@mui/material/Icon";
-
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
-
 // Material Dashboard 2 React example components
 import Sidenav from "examples/Sidenav";
-import Configurator from "examples/Configurator";
-
-// Material Dashboard 2 React themes
-import theme from "assets/theme";
-
-// Material Dashboard 2 React Dark Mode themes
-import themeDark from "assets/theme-dark";
-
-// Material Dashboard 2 React routes
-import routes from "routes";
-
-// Material Dashboard 2 React contexts
-import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "context";
-
+// @mui material components
+import { ThemeProvider } from "@mui/material/styles";
+import brandDark from "assets/images/logo-ct-dark.png";
 // Images
 import brandWhite from "assets/images/logo-ct.png";
-import brandDark from "assets/images/logo-ct-dark.png";
+// Material Dashboard 2 React routes
+import routes from "routes";
+// Material Dashboard 2 React themes
+import theme from "assets/theme";
+// Material Dashboard 2 React Dark Mode themes
+import themeDark from "assets/theme-dark";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();

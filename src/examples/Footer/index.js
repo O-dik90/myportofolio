@@ -1,33 +1,14 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
-
-// @mui material components
-import Link from "@mui/material/Link";
-
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
-import MDTypography from "components/MDTypography";
-
+// prop-types is a library for typechecking of props
+import PropTypes from "prop-types";
+import { Typography } from "@mui/material";
 // Material Dashboard 2 React base styles
 import typography from "assets/theme/base/typography";
 
-function Footer({ company }) {
-  const { href, name } = company;
+function Footer({ author }) {
+  // const { href, name } = company;
+  const { authorName } = author;
   const { size } = typography;
 
   // const renderLinks = () =>
@@ -59,12 +40,10 @@ function Footer({ company }) {
         fontSize={size.sm}
         px={1.5}
       >
-        &copy; {new Date().getFullYear()}, templated by
-        <Link href={href} target="_blank">
-          <MDTypography variant="button" fontWeight="medium">
-            &nbsp;{name}&nbsp;
-          </MDTypography>
-        </Link>
+        &copy; {new Date().getFullYear()}, develop by
+        <Typography variant="h6" fontWeight="medium">
+          &nbsp;{authorName}&nbsp;
+        </Typography>
       </MDBox>
       <MDBox
         component="ul"
@@ -91,7 +70,8 @@ function Footer({ company }) {
 
 // Setting default values for the props of Footer
 Footer.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Team" },
+  author: { authorName: "ODIK Y N" },
+  // company: { href: "https://www.creative-tim.com/", name: "Creative Team" },
   // links: [
   // { href: "https://www.creative-tim.com/", name: "Linkedin" },
   // { href: "https://www.creative-tim.com/presentation", name: "About Us" },
@@ -102,7 +82,8 @@ Footer.defaultProps = {
 
 // Typechecking props for the Footer
 Footer.propTypes = {
-  company: PropTypes.objectOf(PropTypes.string),
+  author: PropTypes.objectOf(PropTypes.string),
+  // company: PropTypes.objectOf(PropTypes.string),
   // links: PropTypes.arrayOf(PropTypes.object),
 };
 
