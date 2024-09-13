@@ -20,7 +20,7 @@ const routes = [
     name: "Profile",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "profile",
     component: <Profile />,
   },
   {
@@ -28,7 +28,7 @@ const routes = [
     name: "Projects",
     key: "projects",
     icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/projects",
+    route: "projects",
     component: <Projects />,
   },
   {
@@ -36,7 +36,7 @@ const routes = [
     name: "Service",
     key: "services",
     icon: <Icon fontSize="small">storage</Icon>,
-    route: "/services",
+    route: "services",
     component: <Services />,
   },
 ];
