@@ -1,8 +1,9 @@
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
+import MDTypography from "components/MDTypography";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
-import { Typography } from "@mui/material";
+// import { Typography } from "@mui/material";
 // Material Dashboard 2 React base styles
 import typography from "assets/theme/base/typography";
 
@@ -40,10 +41,10 @@ function Footer({ author }) {
         fontSize={size.sm}
         px={1.5}
       >
-        &copy; {new Date().getFullYear()}, develop by
-        <Typography variant="h6" fontWeight="medium">
+        &copy; {new Date().getFullYear()}, Dev by
+        <MDTypography variant="h6" fontWeight="small">
           &nbsp;{authorName}&nbsp;
-        </Typography>
+        </MDTypography>
       </MDBox>
       <MDBox
         component="ul"

@@ -185,8 +185,8 @@ const colors = {
     },
 
     github: {
-      main: "#24292e",
-      dark: "#171a1d",
+      main: "#0077b5",
+      dark: "#00669c",
     },
 
     reddit: {

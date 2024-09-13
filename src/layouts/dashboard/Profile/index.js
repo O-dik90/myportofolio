@@ -43,7 +43,7 @@ function MyProfile() {
             fullName: "Odik Yudi Nugroho",
             // phone: "(62) 89 5353 0130 65",
             email: "nugrohoodik90@gmail.com",
-            location: "Indonesia",
+            location: "Central Java, Indonesia",
           }}
           social={[
             // {
