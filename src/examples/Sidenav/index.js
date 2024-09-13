@@ -136,7 +136,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
           onClick={closeSidenav}
           sx={{ cursor: "pointer" }}
         >
-          <MDTypography variant="h6" color="primary">
+          <MDTypography variant="h6" color="secondary">
             <Icon sx={{ fontWeight: "bold" }}>close</Icon>
           </MDTypography>
         </MDBox>

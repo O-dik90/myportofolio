@@ -24,7 +24,7 @@ function Projects() {
     <DashboardLayout>
       <DashboardNavbar />
       <MDBox p={2}>
-        <Grid container spacing={6} justifyContent="center">
+        <Grid marginTop={2} container justifyContent="center">
           {/* <Grid item xs={12} md={6} xl={4}>
             <DefaultProjectCard
               image={homeDecor1}

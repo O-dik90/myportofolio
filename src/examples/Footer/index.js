@@ -42,9 +42,7 @@ function Footer({ author }) {
         px={1.5}
       >
         &copy; {new Date().getFullYear()}, Dev by
-        <MDTypography variant="h6" fontWeight="small">
-          &nbsp;{authorName}&nbsp;
-        </MDTypography>
+        <MDTypography variant="h6">&nbsp;{authorName}&nbsp;</MDTypography>
       </MDBox>
       <MDBox
         component="ul"

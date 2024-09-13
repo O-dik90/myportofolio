@@ -18,7 +18,7 @@ function Services() {
     <DashboardLayout>
       <DashboardNavbar />
       <MDBox p={2}>
-        <Grid container spacing={6} justifyContent="center">
+        <Grid container marginTop={2} justifyContent="center">
           {/* {renderData} */}
           <Typography>Content not Available</Typography>
         </Grid>
