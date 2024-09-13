@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/myportofolio/static/js/main.3e51671a.js",
-    "static/media/bg-profile.jpeg": "/myportofolio/static/media/bg-profile.af1219a742e09fc7b612.jpeg",
-    "static/media/autocad.png": "/myportofolio/static/media/autocad.e7e7e951751607ee9eef.png",
-    "static/media/corel.png": "/myportofolio/static/media/corel.38c13b7556ae7697a737.png",
-    "static/media/bg-photo.jpg": "/myportofolio/static/media/bg-photo.84c1463bcd4a8625ea50.jpg",
-    "static/media/profile.jpg": "/myportofolio/static/media/profile.b73ffd57128cbc3d029f.jpg",
-    "static/media/solidwork.png": "/myportofolio/static/media/solidwork.4c4454204365725ad92c.png",
-    "static/media/reactjs.png": "/myportofolio/static/media/reactjs.20adfb35ae6a6e5817bf.png",
-    "static/media/csharp.png": "/myportofolio/static/media/csharp.82739bedbdacc34c97a0.png",
-    "static/media/css.png": "/myportofolio/static/media/css.99426a611bd5b768e71d.png",
-    "static/media/sqlserver.png": "/myportofolio/static/media/sqlserver.666de00e0667aaa95f73.png",
-    "index.html": "/myportofolio/index.html",
-    "main.3e51671a.js.map": "/myportofolio/static/js/main.3e51671a.js.map"
+    "main.js": "/static/js/main.6464256e.js",
+    "static/media/bg-profile.jpeg": "/static/media/bg-profile.af1219a742e09fc7b612.jpeg",
+    "static/media/autocad.png": "/static/media/autocad.e7e7e951751607ee9eef.png",
+    "static/media/corel.png": "/static/media/corel.38c13b7556ae7697a737.png",
+    "static/media/bg-photo.jpg": "/static/media/bg-photo.84c1463bcd4a8625ea50.jpg",
+    "static/media/profile.jpg": "/static/media/profile.b73ffd57128cbc3d029f.jpg",
+    "static/media/solidwork.png": "/static/media/solidwork.4c4454204365725ad92c.png",
+    "static/media/reactjs.png": "/static/media/reactjs.20adfb35ae6a6e5817bf.png",
+    "static/media/csharp.png": "/static/media/csharp.82739bedbdacc34c97a0.png",
+    "static/media/css.png": "/static/media/css.99426a611bd5b768e71d.png",
+    "static/media/sqlserver.png": "/static/media/sqlserver.666de00e0667aaa95f73.png",
+    "index.html": "/index.html",
+    "main.6464256e.js.map": "/static/js/main.6464256e.js.map"
   },
   "entrypoints": [
-    "static/js/main.3e51671a.js"
+    "static/js/main.6464256e.js"
   ]
 }
