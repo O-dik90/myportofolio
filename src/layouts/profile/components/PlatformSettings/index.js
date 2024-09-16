@@ -1,23 +1,23 @@
 // import { useState } from "react";
 
+import Arduino from "assets/images/arduino.png";
+import Autocad from "assets/images/autocad.png";
 // @mui material components
 import Card from "@mui/material/Card";
+import CorelDraw from "assets/images/corel.png";
+import Csharp from "assets/images/csharp.png";
+import Css from "assets/images/css.png";
+import Html from "assets/images/html.png";
+import Js from "assets/images/js_1.png";
 // import Switch from "@mui/material/Switch";
 import MDAvatar from "components/MDAvatar";
-
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import Python from "assets/images/python.png";
-import Js from "assets/images/js_1.png";
-import Html from "assets/images/html.png";
-import Css from "assets/images/css.png";
-import Csharp from "assets/images/csharp.png";
 import ReactJs from "assets/images/reactjs.png";
-import Sqlserver from "assets/images/sqlserver.png";
 import Solidworks from "assets/images/solidwork.png";
-import Autocad from "assets/images/autocad.png";
-import CorelDraw from "assets/images/corel.png";
+import Sqlserver from "assets/images/sqlserver.png";
 
 function PlatformSettings() {
   return (
@@ -46,7 +46,7 @@ function PlatformSettings() {
           <MDTypography variant="caption" fontWeight="bold" color="text" textTransform="capitalize">
             design 3d
           </MDTypography>
-          <MDBox display="flex" alignItems="center" mt={1} mb={0.5} ml={1}>
+          <MDBox display="flex" alignItems="center" mt={1} mb={0.5}>
             <MDAvatar src={Solidworks} alt="profile-image" size="sm" shadow="sm" />
             <MDAvatar src={Autocad} alt="profile-image" size="sm" shadow="sm" />
             <MDAvatar src={CorelDraw} alt="profile-image" size="sm" shadow="sm" />
@@ -56,6 +56,9 @@ function PlatformSettings() {
           <MDTypography variant="caption" fontWeight="bold" color="text" textTransform="capitalize">
             other
           </MDTypography>
+          <MDBox display="flex" alignItems="center" mt={1} mb={0.5}>
+            <MDAvatar src={Arduino} alt="profile-image" size="sm" shadow="sm" />
+          </MDBox>
         </MDBox>
       </MDBox>
     </Card>

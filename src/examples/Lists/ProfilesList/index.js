@@ -1,15 +1,14 @@
 // react-routers components
 // import { Link } from "react-router-dom";
 
-// prop-types is library for typechecking of props
-import PropTypes from "prop-types";
-
 // @mui material components
 import Card from "@mui/material/Card";
-
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
+// prop-types is library for typechecking of props
+import PropTypes from "prop-types";
+
 // import MDAvatar from "components/MDAvatar";
 // import MDButton from "components/MDButton";
 
@@ -19,7 +18,13 @@ function ProfilesList({ title, profiles, shadow }) {
       {/* <MDBox mr={2}>
         <MDAvatar src={image} alt="something here" shadow="md" />
       </MDBox> */}
-      <MDBox display="flex" flexDirection="column" alignItems="flex-start" justifyContent="center">
+      <MDBox
+        display="flex"
+        mr={2}
+        flexDirection="column"
+        alignItems="flex-start"
+        justifyContent="center"
+      >
         <MDTypography variant="button" fontWeight="medium">
           {sym}
           {name}
@@ -30,12 +35,12 @@ function ProfilesList({ title, profiles, shadow }) {
       </MDBox>
       <MDBox
         display="flex"
-        flexDirection="column"
+        flexDirection="row"
         alignItems="flex-end"
         justifyContent="center"
         ml="auto"
       >
-        <MDTypography variant="caption" color="text" pl={1}>
+        <MDTypography variant="caption" color="text" pl={0}>
           {years}
         </MDTypography>
       </MDBox>
