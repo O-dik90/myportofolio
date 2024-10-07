@@ -36,16 +36,15 @@ function Projects() {
           <MDBox
             sx={{
               width: "100%",
-              height: 500,
               border: "2px solid #ccc",
               borderRadius: 2,
               overflow: "hidden",
             }}
           >
             <iframe
-              title="looker studio"
+              title="looker-studio"
               width="100%"
-              height="675"
+              height="300"
               src="https://lookerstudio.google.com/embed/reporting/37cd31f7-4f5d-48e2-bcf7-95981c2db877/page/A"
               frameBorder="0"
               allowFullScreen
