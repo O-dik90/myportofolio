@@ -102,11 +102,6 @@ function Projects() {
             location: "Indonesia",
           }}
           social={[
-            // {
-            //   link: "https://facebook.com/nugrohoodik",
-            //   icon: <FacebookIcon />,
-            //   color: "facebook",
-            // },
             {
               link: "https://www.instagram.com/nugroho_odik",
               icon: <InstagramIcon />,

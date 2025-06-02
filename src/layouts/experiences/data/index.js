@@ -1,8 +1,8 @@
-export default [
+const data = [
   {
     icon: "public",
-    title: "First Service",
-    description: "this is description about first service",
+    title: "First Experience",
+    description: "this is description",
   },
   {
     icon: "draw",
@@ -15,3 +15,5 @@ export default [
     description: "this is description third service",
   },
 ];
+
+export default data;

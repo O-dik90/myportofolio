@@ -36,6 +36,7 @@ function Projects() {
           <MDBox
             sx={{
               width: "100%",
+              height: "75vh",
               border: "2px solid #ccc",
               borderRadius: 2,
               overflow: "hidden",
@@ -44,8 +45,8 @@ function Projects() {
             <iframe
               title="looker-studio"
               width="100%"
-              height="300"
-              src="https://lookerstudio.google.com/embed/reporting/37cd31f7-4f5d-48e2-bcf7-95981c2db877/page/A"
+              height="100%"
+              src="https://lookerstudio.google.com/embed/reporting/37cd31f7-4f5d-48e2-bcf7-95981c2db877/page/page_12345"
               frameBorder="0"
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
