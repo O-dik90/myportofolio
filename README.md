@@ -1,2 +1,7 @@
 # myportofolio
-web portofolio [Demo Hompage Portofolio](https://o-dik90.github.io/myportofolio)
+web portofolio [Demo MyPortofolio](https://o-dik90.github.io/myportofolio)
+
+## Tech Stack
+- react js
+- MUI Component
+- react-router-dom
